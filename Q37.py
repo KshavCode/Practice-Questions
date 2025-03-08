@@ -5,8 +5,8 @@ def palindrome(num:int) -> bool :
     while start != end :
         if num[start] != num[end] :
             return False
-        start += 1;
-        end -= 1;
+        start += 1
+        end -= 1
     return True 
 
 print(palindrome("abcba"))
